@@ -1,0 +1,17 @@
+h1 {
+    color: white;
+    top: 600px;
+    left: 400px;
+    position: absolute;
+    font-family: "Playfair Display";
+}
+
+.meditation {
+    position: absolute;
+    top: 700px;
+    left: 400px;
+}
+
+div {
+    position: relative;
+}
