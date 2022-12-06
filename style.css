@@ -1,3 +1,6 @@
+html, body { min-width:800px;
+}
+
 p {
    
     color: black;
@@ -24,11 +27,14 @@ p {
     top: 250px;
     justify-content: center;
     align-items: center;
+    
 }
 
 
 .img-bg {
     background-image: url(photos/desert.jpg);
-    width: 700px;
-    height: 650px;
+    background-size: auto;
+    width: 50vw;
+    height: 50vw;
+    min-height: 400px;
 }
