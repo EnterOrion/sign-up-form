@@ -1,8 +1,13 @@
-html, body { min-width:800px;
+html, body { 
+    min-width:800px;
 }
 
-p {
-   
+body {
+    display: flex;
+    margin: 0px;
+}
+
+#logo-text {  
     color: black;
     font-family: "Aladin";
     font-size: 26px;
@@ -22,9 +27,9 @@ p {
     flex-direction: column;
     position: relative;
     padding: 0;
-    background-color: rgb(224, 197, 197, 0.7);
+    background-color: rgb(224, 197, 197, 0.6);
     height: 200px;
-    top: 250px;
+    top: 130px;
     justify-content: center;
     align-items: center;
     
@@ -34,7 +39,74 @@ p {
 .img-bg {
     background-image: url(photos/desert.jpg);
     background-size: auto;
-    width: 50vw;
+    width: 40vw;
     height: 50vw;
     min-height: 400px;
+}
+
+.sign-up {
+    background-color: rgb(44, 0, 44);
+    width: 60vw;
+    height: 50vw;
+}
+
+p, .sign-up {
+    font-size: 24px;
+    color: rgb(224, 197, 197);
+}
+
+p {
+    padding: 10px;
+}
+
+#sign-up {
+    padding-left: 10px;
+    margin-top: 43px;
+}
+
+form {
+    background-color: rgb(179, 160, 160, 0.9);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    height: 220px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+   
+
+}
+
+.left-side, .right-side {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.left-side {
+    margin-left: 10px;
+    margin-right: 35px;
+}
+
+label {
+    font-size: 16px;
+    color: rgb(37, 35, 35);
+}
+
+input {
+    width: 250px;
+    background-color: rgb(211, 200, 200);
+    border: 1px solid black;
+   
+}
+
+input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.form-category {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
 }
