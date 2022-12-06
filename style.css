@@ -1,17 +1,34 @@
-h1 {
-    color: white;
-    top: 600px;
-    left: 400px;
-    position: absolute;
-    font-family: "Playfair Display";
+p {
+   
+    color: black;
+    font-family: "Aladin";
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .meditation {
-    position: absolute;
-    top: 700px;
-    left: 400px;
+    margin-bottom: 20px;
+    padding: 0;
 }
 
-div {
+
+.logo-bg {
+    display: flex;
+    flex-direction: column;
     position: relative;
+    padding: 0;
+    background-color: rgb(224, 197, 197, 0.7);
+    height: 200px;
+    top: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-bg {
+    background-image: url(photos/desert.jpg);
+    width: 700px;
+    height: 650px;
 }
