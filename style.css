@@ -41,13 +41,16 @@ body {
     background-size: auto;
     width: 40vw;
     height: 50vw;
-    min-height: 400px;
+    min-height: 800px;
+    min-width: 400px;
 }
 
 .sign-up {
     background-color: rgb(44, 0, 44);
     width: 60vw;
     height: 50vw;
+    min-width:800px;
+    min-height: 800px;
 }
 
 a, p, .sign-up {
