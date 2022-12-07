@@ -50,7 +50,7 @@ body {
     height: 50vw;
 }
 
-p, .sign-up {
+a, p, .sign-up {
     font-size: 24px;
     color: rgb(224, 197, 197);
 }
@@ -101,8 +101,7 @@ input {
 
 input:focus { 
     outline: none !important;
-    border-color: #719ECE;
-    box-shadow: 0 0 10px #719ECE;
+    box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.5); 
 }
 
 .form-category {
@@ -123,9 +122,42 @@ button {
 
 }
 
+button:hover {
+   background-color: rgb(133, 0, 88);
+    box-shadow: 0 0 10px rgb(114, 0, 80);
+}
+
+
 #log-in {
     color: rgb(224, 197, 197);
     font-size: 18px;
     margin-top: 3px;
 }
 
+input:focus:invalid {
+    border: 1px solid red;
+
+}
+
+input:focus:valid {
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+
+#message {
+    font-size: 14px;
+    font-style: italic;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color:rgb(192, 0, 128);
+}

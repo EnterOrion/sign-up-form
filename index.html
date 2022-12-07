@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <script src="app.js" defer></script>
+    <title>Register</title>
 </head>
 <body>
     <div class="img-bg">
@@ -33,7 +34,7 @@
                 </div>
                 <div class="form-category">
                 <label for="password">PASSWORD</label>
-                <input type="text" name="password" id="password" required>
+                <input type="password" name="password" id="password" onkeyup="checkPassword();" required>
                 </div>
             </div>
             <div class ="right-side">
@@ -44,19 +45,20 @@
 
                 <div class="form-category">
                 <label for="phone-number">PHONE NUMBER</label>
-                <input type="text" name="phone-number" id="phone-number" required> 
+                <input type="text" name="phone-number" id="phone-number" minlength="10" required> 
                 </div>
 
                 <div class="form-category">
-                <label for="verify-pswd">CONFIRM PASSWORD</label>
-                <input type="text" name="verify-pswd" id="verify-pswd" required> 
+                <label for="verify-pswd">CONFIRM PASSWORD <span id='message'></span></label>
+                <input type="password" name="verify-pswd" id="verify-pswd" onkeyup="checkPassword();" required> 
                 </div>
+                
             </div>
         </form>
-    <button type="submit">
-        Create Account
-    </button>
-    <p id="log-in"><em>Already have an account?</em> <b>Log in</b></p>
+        <button value="submit" type="submit">
+            Create Account
+        </button>
+    <p id="log-in"><em>Already have an account?</em> <a href><b>Log in</b></a></p>
     </div>
     
 
