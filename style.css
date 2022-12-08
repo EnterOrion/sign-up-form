@@ -164,3 +164,14 @@ a {
 a:hover {
     color:rgb(192, 0, 128);
 }
+
+.small-text {
+    font-size: 9px;
+    font-style: italic;
+    color: rgb(238, 214, 214);
+}
+
+.log-in-side {
+    display: flex;
+    gap: 400px;
+}
